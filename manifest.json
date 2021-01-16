@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icon128.png",
+         "48": "icon48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Rename tabs"
+   },
+   "description": "Rename a tab. All rules will be saved in the cloud (currently in lark).",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjh+qHRhgO7pFoPtKdypmaKTSyXSdBM0hbMWfBiP8N1t7TcEJoKoPWEYB6+nFScgMzRKA51LI0O5iMuULpMVLIpOKC/rzHuiVXPJd0s78vfwtVi4Uho7DpNCCdaX5zvipOP3oLsMT0qNt6SgPoRxxea3aTiNPoHQMcbCYZ/T962ZRqgnda0XVqPLaTib+bi66MAgEh29AJQVv7U7FSuyM8DK6I0FN10TxFyEGfuy9DHk79RnP0IJUIesI9OLJtkoJHA02H+68vxW6WjMpNHjby1fz5G/2yRg0KHv3js7j1ZQt7HL0AMW1HL2D59aajmshUnvOemqan15OjSJuawa6GwIDAQAB",
+   "manifest_version": 2,
+   "name": "Tab Renamer",
+   "permissions": [ "tabs", "activeTab", "notifications", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

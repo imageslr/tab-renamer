@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Rename Tab</title>
+		<script src="popup.js"></script>
+		<link rel="stylesheet" type='text/css' href="styles.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id='titlecontainer'>
+				<input id="newTitle" type="text" placeholder="New Tab Title">
+			</div>
+			<div id='cbox'>
+				<label class="clabel">
+					<input type="checkbox" id="applyToAll"> 
+					<span class="checkmark"></span>
+					Apply to all tabs of <span id="baseUrl"/>
+				</label>
+			</div>
+			<div>
+				<button id="changeTitle">Change Tab Title</button>
+			</div>
+			<div>
+				<button id="resetAll">Reset All</button>
+			</div>
+		</div>
+	</body>
+</html>
